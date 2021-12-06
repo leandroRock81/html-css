@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:rgb(202, 214, 226);
+        }
+        header {
+            background-color: rgb(174, 206, 171);
+            padding: 10px;
+            margin: 10px;
+            border-style: solid;
+            border-width: 4px;
+            border-radius: 10px;
+            }
+        nav {
+            background-color: aquamarine;
+            padding: 10px;
+            box-shadow: 2px 2px 2px black;
+        }
+        nav > a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            color: blue;
+            transition: 0.4s;
+            
+            
+        }
+        
+        main {
+            background-color: rgb(174, 206, 171);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+        }
+        article {
+            background-color: antiquewhite;
+        }
+        article > aside {
+            background-color: aqua;
+        }
+
+        footer {
+            background-color: aqua;
+            color: rgb(51, 84, 112);
+            text-align: center;
+            padding: 2px;
+            margin: 0px;
+            
+        }
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+    <title>Grouping tags</title>
+</head>
+<body>
+   <header>
+    <h1>Meu site</h1>
+    <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+    </nav>
+   </header>
+   <main>
+       <section id="assuntos">
+           <p>Esportes Política</p>
+           <article>
+               <h2>Noticias do Brasil</h2>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi et, perferendis iure vitae asperiores qui. Ea cupiditate eaque, quisquam, beatae fuga ducimus aperiam corrupti eum maiores, blanditiis quo impedit mollitia!</p>
+               <aside>
+                   <p>Artigo escrito por Leandro</p>
+               </aside>
+           </article>
+
+       </section>
+       <section id="noticias">
+
+       </section>
+
+   </main>
+   <footer>
+       <p>Desenvolvido por Leandro Ricardo Adriano</p>
+   </footer>
+    
+</body>
+</html>
